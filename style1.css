@@ -1,0 +1,152 @@
+
+	
+body{
+	width:100%;
+	max-width:none;
+	background-color:#F8F8FF;		
+}
+
+
+h1{
+	padding-left:11.5em;
+	font-family: italic, helvetica, serif, arial;
+	font-weight:bold;
+	color:#ffcc00;	
+	
+}
+#content{
+	margin:0 auto;
+	width:95%;
+	max-width:1024px;
+}
+			
+
+#contentBorder{
+	border:1px solid black;
+	overflow:hidden;
+	box-shadow:1px 1px 2px grey ;
+	border-radius:1em;
+	
+}
+#mainMeny{
+	margin:auto;
+	list-style-type:none;
+	background-color:#707070;
+	max-width:100%;
+	
+}
+
+#mainMeny li{
+	background-color:#707070;
+	display:inline-block;
+	
+}
+#mainMeny ul{
+	text-align:center;
+	border-radius:2px;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+
+
+
+
+#mainMeny a:hover{
+	background-color:#007399;
+	text-decoration:underline;
+}
+
+#mainMeny a {
+	
+	margin:auto;
+	padding:20px 0 20px 0;
+	display:block;
+	background-color:#707070;
+	height:2em;
+	width:15.77em;
+	text-decoration:none;
+	color:white;
+	font-family:helvetica, serif, arial; 
+	font-weight:bold;
+	font-size:1em;
+
+	
+
+	}
+	
+#footer{
+	
+	height:3.125em;
+	max-width: 64em;
+	background-color:#707070;
+	
+	
+	
+}
+
+#footer p{
+	padding-left:1em;
+	padding-top:1em;
+	font-style: italic;
+	font-family: helvetica, arial, sans-serif;
+	color:white;
+	
+	
+}		
+		
+.frontPage{
+width:300px;
+height:300px;
+	
+	
+	
+	
+}	
+#box1{
+
+	height:70%;
+	margin:0 auto;
+	width:90%;
+	padding-bottom:4em;
+	padding-top:4em;
+	border-radius:1em;
+	clear:left;
+	
+}
+@media screen and (min-width:700px) {
+    #box1 {
+			width:90%;
+    }
+}
+
+@media screen and (min-width:400px) {
+    #box1 {
+		width:90%;}
+}
+	
+
+
+
+@media screen and (min-width:200px) {
+	
+	
+	h1.logoText{
+		height:300px;
+		width:300px;
+		margin:0 auto;
+		display:block;
+	}
+	
+	
+	
+    img.frontPage {
+		width:275px;
+		margin:0 auto;
+		display:block;
+    }
+
+}
+
+
